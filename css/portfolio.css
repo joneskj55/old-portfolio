@@ -62,21 +62,21 @@ body {
 }
 
 .avatar {
-    height: 200px;
-    width: 200px;
+    height: 197px;
+    width: 197px;
     margin: auto;
     border-radius: 50%;
-    border: 5px solid;
+    border: 3px solid;
     overflow: hidden;
 }
 
 #me {
-    height: 190px;
-    width: inherit;
+    height: inherit;
+    width: initial;
     transform: rotate(360deg);
     position: relative;
-    top: -1px;
-    left: -7px;
+    top: 0px;
+    left: -26px;
 }
 
 #linkedin {
@@ -84,7 +84,7 @@ body {
     font-size: 200%;
 }
 
-#facebook {
+#googleplus {
     color: black;
     font-size: 200%;
 }
