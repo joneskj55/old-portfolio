@@ -21,25 +21,25 @@ $(document).ready(function () {
         date: "2016",
         description: "Blog using ajax and allowing users to add and delete blog posts",
         image: "<img id='blog-photo' src='img/blog.png' height='70%' width='70%' class='center-block'/>"
-        // site: [] --ADD SITE LATER USING CODEPEN
+        // site: [] --ADD SITE LATER WHEN GITHUB PAGES IS COMPLETE
     }, {
         title: "Calculator",
         date: "2016",
         description: "JS Calculator",
-        image: "<img id='calc-photo' src='img/calculator.png' height='70%' width='70%' class='center-block'/>"
-        // site: [] --ADD SITE LATER USING CODEPEN
+        image: "<img id='calc-photo' src='img/calculator.png' height='40%' width='40%' class='center-block'/>"
+        // site: [] --ADD SITE LATER WHEN GITHUB PAGES IS COMPLETE
     }, {
         title: "Simple Simon",
         date: "2016",
         description: "Classic Simple Simon memory game",
         image: "<img id='simon-photo' src='img/simon.png' height='70%' width='70%' class='center-block'/>"
-        // site: [] --ADD SITE LATER USING CODEPEN
+        // site: [] --ADD SITE LATER WHEN GITHUB PAGES IS COMPLETE
     }, {
         title: "Weather Map",
         date: "2016",
         description: "3-day forecast weather map",
         image: "<img id='weather-photo' src='img/weather.png' height='70%' width='70%' class='center-block'/>"
-        // site: [] --ADD SITE LATER USING CODEPEN
+        // site: [] --ADD SITE LATER WHEN GITHUB PAGES IS COMPLETE
     }];
     console.log(projectData);
 
