@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script'); /*test*/
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab'); /*paragraph*/
+@import url('https://fonts.googleapis.com/css?family=Poiret+One'); /*quote*/
 
 body {
     font-family: 'Kaushan Script', cursive; /*'Raleway', sans-serif;*/ /*main-font*/
@@ -59,6 +60,11 @@ body {
     font-family: 'Josefin Slab', serif;
 }
 
+.score {
+    position: absolute;
+    right: 0px;
+}
+
 #linkedin {
     color: black;
     font-size: 200%;
@@ -90,6 +96,11 @@ body {
     height: 132px;
 }
 
+hr {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
 #footerwrap {
     background-color: black;
     padding-top: 50px;
@@ -97,5 +108,18 @@ body {
     color: white;
 }
 
+#jones {
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+.quote {
+    text-align: center;
+    color: #4aa68b;
+    font-family: 'Poiret One', cursive;
+}
 
 
