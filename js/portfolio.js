@@ -51,7 +51,7 @@ $(document).ready(function () {
             + "<h3 id='project-title' class='text-center'>" + value.title + "</h3>"
             // + "<p id='project-date' class='text-center'>" + value.date + "</p>"
             + "<img id='project-image'>" + value.image
-            + "<h4 id='project-description' class='text-center'>" + value.description + "</h4>"
+            + "<h6 id='project-description' class='text-center'>" + value.description + "</h6>"
             + "</div>"
             + "</div>";
         $("#my-portfolio").html(data);
