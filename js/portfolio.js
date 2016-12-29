@@ -21,6 +21,7 @@ $(document).ready(function () {
         date: "2016",
         description: "Blog using ajax and allowing users to add and delete blog posts",
         image: "<img id='blog-photo' src='img/blog.png' height='70%' width='70%' class='center-block'/>"
+
         // site: [] --ADD SITE LATER WHEN GITHUB PAGES IS COMPLETE
     }, {
         title: "Calculator",

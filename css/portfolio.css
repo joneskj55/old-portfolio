@@ -34,7 +34,8 @@ body {
 #name-welcome {
     font-size: 75px;
     font-weight: bold;
-    color: black;
+    color: white;
+    text-shadow: 4px 2px 3px hsl(0, 0%, 0%);
     /*font-family: 'Pacifico', cursive;*/
 }
 
@@ -62,7 +63,7 @@ body {
 
 .score {
     position: absolute;
-    right: 0px;
+    right: 0;
 }
 
 #linkedin {
@@ -82,18 +83,26 @@ body {
 
 #name {
     height: auto;
+    font-family: 'Josefin Slab', serif;
 }
 
 #email {
     height: auto;
+    font-family: 'Josefin Slab', serif;
 }
 
 #phone {
     height: auto;
+    font-family: 'Josefin Slab', serif;
 }
 
 #message {
     height: 132px;
+    font-family: 'Josefin Slab', serif;
+}
+
+#send {
+    font-family: 'Josefin Slab', serif;
 }
 
 hr {
@@ -108,10 +117,6 @@ hr {
     color: white;
 }
 
-#jones {
-    color: white;
-}
-
 ul {
     list-style: none;
 }
@@ -120,6 +125,10 @@ ul {
     text-align: center;
     color: #4aa68b;
     font-family: 'Poiret One', cursive;
+}
+
+.glyphicon {
+    color: #4aa68b;
 }
 
 
