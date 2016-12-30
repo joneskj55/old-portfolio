@@ -131,4 +131,26 @@ ul {
     color: #4aa68b;
 }
 
+.img-wrap {
+    position: relative;
+    height: 70%;
+    width: 70%;
+}
+
+.project-description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.img-wrap:hover .project-description {
+    visibility: visible;
+    opacity: 1;
+}
 
