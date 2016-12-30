@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script'); /*test*/
-@import url('https://fonts.googleapis.com/css?family=Josefin+Slab'); /*paragraph*/
+/*@import url('https://fonts.googleapis.com/css?family=Josefin+Slab'); !*paragraph*!*/
 @import url('https://fonts.googleapis.com/css?family=Poiret+One'); /*quote*/
 
 body {
@@ -58,7 +58,7 @@ body {
 }
 
 .para-content {
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Poiret One', cursive;
 }
 
 .score {
@@ -83,26 +83,26 @@ body {
 
 #name {
     height: auto;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Poiret One', cursive;
 }
 
 #email {
     height: auto;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Poiret One', cursive;
 }
 
 #phone {
     height: auto;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Poiret One', cursive;
 }
 
 #message {
     height: 132px;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Poiret One', cursive;
 }
 
 #send {
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Poiret One', cursive;
 }
 
 hr {
@@ -133,8 +133,8 @@ ul {
 
 .img-wrap {
     position: relative;
-    height: 70%;
-    width: 70%;
+    /*height: 70%;*/
+    /*width: 70%;*/
 }
 
 .project-description {
@@ -152,5 +152,7 @@ ul {
 .img-wrap:hover .project-description {
     visibility: visible;
     opacity: 1;
+    /*height: 70%;*/
+    /*width: 70%;*/
 }
 
