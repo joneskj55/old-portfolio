@@ -133,8 +133,8 @@ ul {
 
 .img-wrap {
     position: relative;
-    /*height: 70%;*/
-    /*width: 70%;*/
+    /*height: 200px;*/
+    /*width: 300px;*/
 }
 
 .project-description {
@@ -147,12 +147,19 @@ ul {
     color: #fff;
     visibility: hidden;
     opacity: 0;
+    font-size: 16px;
+    font-family: 'Poiret One', cursive;
 }
 
 .img-wrap:hover .project-description {
     visibility: visible;
     opacity: 1;
-    /*height: 70%;*/
-    /*width: 70%;*/
+    height: 200px;
+    width: 300px;
+}
+
+.hover-hr {
+    /*margin-right: 150px;*/
+    /*margin-left: 100px;*/
 }
 
