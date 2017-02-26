@@ -42,12 +42,11 @@
 
 <div id="welcome-info">
     <br>
-    <h1>Hello and Welcome</h1>
-    <h1>To My World</h1>
+    <h1 id="name-welcome">Kevin Jones</h1>
     <div class="avatar">
         <img id="me" src="img/KJ3.png">
     </div>
-    <h1 id="name-welcome">Kevin Jones</h1>
+    <h1 id="job-title">Full-Stack Web Developer</h1>
 </div>
 <br>
 
@@ -116,19 +115,19 @@
                         class="glyphicon glyphicon-star-empty"></span></span></li>
                 <li><span class="ability">Java</span><span class="score"><span
                         class="glyphicon glyphicon-star"></span><span
-                        class="glyphicon glyphicon-star-empty"></span><span
-                        class="glyphicon glyphicon-star-empty"></span><span
+                        class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span
                         class="glyphicon glyphicon-star-empty"></span><span
                         class="glyphicon glyphicon-star-empty"></span></span></li>
                 <li><span class="ability">MySQL</span><span class="score"><span class="glyphicon glyphicon-star"></span><span
-                        class="glyphicon glyphicon-star-empty"></span><span
-                        class="glyphicon glyphicon-star-empty"></span><span
-                        class="glyphicon glyphicon-star-empty"></span><span
-                        class="glyphicon glyphicon-star-empty"></span></span></li>
-                <li><span class="ability">Angular</span><span class="score"><span
+                        class="glyphicon glyphicon-star"></span><span
                         class="glyphicon glyphicon-star"></span><span
                         class="glyphicon glyphicon-star-empty"></span><span
-                        class="glyphicon glyphicon-star-empty"></span><span
+                        class="glyphicon glyphicon-star-empty"></span></span></li>
+                <li><span class="ability">Spring</span><span class="score"><span
+                        class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span
+                        class="glyphicon glyphicon-star"></span><span
                         class="glyphicon glyphicon-star-empty"></span><span
                         class="glyphicon glyphicon-star-empty"></span></span></li>
             </ul>
@@ -143,23 +142,37 @@
 <h1 class="text-center" id="portfolio">My Portfolio</h1>
 <h4 class="quote">“Consistent impact over the course of your life on a body of work you care about deeply is legacy.” </h4>
 <h4 class="quote">-Pamela Slim</h4>
+    <a href="projects/blog/index.html" target="_blank">
     <div class="img-wrap col-md-6 col-sm-12 col-xs-12">
-        <img id='blog-photo' src='img/blog.png' height='200px' width='300px' class='center-block'/>
-        <div class="project-description center-block">Blog<hr class="hover-hr"><p>This is a simple blog project with add and delete functionality.</p><br><p>Tools used: HTML, CSS, JSON, JavaScript, jQuery, Ajax</p>
+        <img id='blog-photo' src='img/blog.png' height='286' width='390' class='center-block'/>
+        <div class="project-description center-block">Ajax Blog<p class="project-details">This is a simple, completely front-end blog project with add and delete functionality.</p><br><p class="project-details">Tools used: HTML, CSS, JSON, JavaScript, jQuery, Ajax</p>
             </div>
+        <br>
     </div>
+    </a>
+    <a href="projects/calculator/index.html" target="_blank">
     <div class="img-wrap col-md-6 col-sm-12 col-xs-12">
-        <img id='calc-photo' src='img/calculator.png' height='40%' width='40%' class='center-block'/>
-        <p class="project-description">This is a hover test.</p>
+        <img id='calc-photo' src='img/calculator.png' height='286' width='390' class='center-block'/>
+        <div class="project-description center-block">JS Calculator<p class="project-details">Three text-field vanilla JavaScript calculator allowing users to perform basic mathematical operations.</p><br><p class="project-details">Tools used: HTML, CSS, JavaScript</p>
+        </div>
+        <br>
     </div>
+    </a>
+    <a href="projects/simple-simon/index.html" target="_blank">
     <div class="img-wrap col-md-6 col-sm-12 col-xs-12">
-        <img id='simon-photo' src='img/simon.png' height='70%' width='70%' class='center-block'/>
-        <p class="project-description">This is a hover test.</p>
+        <img id='simon-photo' src='img/simon.png' height='286' width='390' class='center-block'/>
+        <div class="project-description center-block">Simple Simon<p class="project-details">My take on the classic Simon memory game using jQuery.</p><br><p class="project-details">Tools used: HTML, CSS, JavaScript, jQuery</p>
+        </div>
+        <br>
     </div>
+    </a>
+    <a href="projects/weather-map/index.html" target="_blank">
     <div class="img-wrap col-md-6 col-sm-12 col-xs-12">
-        <img id='weather-photo' src='img/weather.png' height='70%' width='70%' class='center-block'/>
-        <p class="project-description">This is a hover test.</p>
+        <img id='weather-photo' src='img/weather.png' height='286' width='390' class='center-block'/>
+        <div class="project-description center-block">Weather Map<p class="project-details">Weather map allowing users to drag and drop a marker anywhere on earth and get a 3-day weather forecast.</p><p class="project-details">Tools used: HTML, CSS, JSON, JavaScript, jQuery, Ajax</p>
+        </div>
     </div>
+    </a>
 </div>
 <hr>
 
@@ -168,7 +181,8 @@
 <div class="container" id="contact-me">
     <h1 class="text-center" id="contact">Let's Connect!</h1>
     <div class="col-lg-12">
-        <form method="POST" action="http://requestb.in/1i5l9lk1" name="sentMessage" id="contactForm" novalidate="">
+        <form action="https://formspree.io/joneskj55@gmail.com"
+              method="POST" id="contactForm" novalidate="">
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">
@@ -214,14 +228,14 @@
 <div class="container" id="social-media">
     <div class="row centered">
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
-            <a href="https://www.linkedin.com/in/kevinjones26" target="_blank"><i id="linkedin"
+            <a href="https://www.linkedin.com/in/joneskj55" target="_blank"><i id="linkedin"
                                                                                   class="fa fa-linkedin"></i></a>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
-            <a href="https://github.com/joneskj55" target="_blank"><i id="github" class="fa fa-github"></i></a>
+            <a href="//alumni.codeup.com/students/305" target="_blank"><img src="img/codeup.png" height="40" width="40"/></a>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
-            <a href="https://plus.google.com/" target="_blank"><i id="googleplus" class="fa fa-google-plus"></i></a>
+            <a href="https://github.com/joneskj55" target="_blank"><i id="github" class="fa fa-github"></i></a>
         </div>
     </div>
 </div>

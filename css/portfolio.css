@@ -1,16 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script'); /*test*/
-/*@import url('https://fonts.googleapis.com/css?family=Josefin+Slab'); !*paragraph*!*/
 @import url('https://fonts.googleapis.com/css?family=Poiret+One'); /*quote*/
 
 body {
     font-family: 'Kaushan Script', cursive; /*'Raleway', sans-serif;*/ /*main-font*/
     color: black;
     font-size: 20px;
-    /*background-color: #dddac3;*/
 }
 
 #welcome-info {
-    background-image: url(https://static.pexels.com/photos/80467/globe-indonesia-equator-80467.jpeg);
+    background-image: url('../img/new-globe.png');
     background-repeat: no-repeat;
     background-attachment: scroll;
     max-width: 100%;
@@ -34,8 +32,8 @@ body {
 #name-welcome {
     font-size: 75px;
     font-weight: bold;
-    color: white;
-    text-shadow: 4px 2px 3px hsl(0, 0%, 0%);
+    color: #ab9d2e;
+    /*text-shadow: 4px 2px 3px hsl(0, 0%, 100%);*/
     /*font-family: 'Pacifico', cursive;*/
 }
 
@@ -59,6 +57,12 @@ body {
 
 .para-content {
     font-family: 'Poiret One', cursive;
+}
+
+#job-title {
+    font-family: 'Poiret One', cursive;
+    font-weight: bolder;
+    color: white;
 }
 
 .score {
@@ -125,6 +129,7 @@ ul {
     text-align: center;
     color: #4aa68b;
     font-family: 'Poiret One', cursive;
+    font-size: 20px;
 }
 
 .glyphicon {
@@ -143,19 +148,26 @@ ul {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(29, 106, 154, 0.72);
-    color: #fff;
+    background: rgba(74, 166, 139, 0.72);
+    color: black;
     visibility: hidden;
     opacity: 0;
-    font-size: 16px;
+    font-size: 32px;
     font-family: 'Poiret One', cursive;
+    text-align: center;
+}
+
+.project-details {
+    color: white;
+    font-size: 24px;
+
 }
 
 .img-wrap:hover .project-description {
     visibility: visible;
     opacity: 1;
-    height: 200px;
-    width: 300px;
+    height: 286px;
+    width: 390px;
 }
 
 .hover-hr {
