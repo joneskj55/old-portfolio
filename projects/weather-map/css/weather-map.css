@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+body {
+    background-image: url(https://static.pexels.com/photos/111263/pexels-photo-111263.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: inherit;
+    background-size: cover;
+    background-color: white;
+    color: black;
+    font-family: 'Poiret One', cursive;
+}
+
+#main-header {
+    color: white;
+    text-align: center;
+}
+
+#sub-header {
+    color: #f7584c;
+    text-align: center;
+}
+
+#three-day {
+    color: white;
+    text-align: center;
+}
+
+#every-box {
+    text-align: center;
+    color: white;
+}
+
+#date-time-group {
+    font-size: x-large;
+    color: green;;
+}
+
+#temp {
+    font-weight: bold;
+    font-size: xx-large;
+    color: white;
+}
+
+#map-canvas {
+    width: 795px;
+    height: 481px;
+    padding: 0;
+    border: 1px solid white;
+}

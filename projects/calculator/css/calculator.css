@@ -1,0 +1,57 @@
+#calculator {
+    position: relative;
+    margin-bottom: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 420px;
+    width: 328px;
+    text-align: center;
+    background-color: black;
+    border: 2px solid;
+    border-radius: 13px;
+}
+
+#header {
+    color: white;
+    font-size: 26px;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    font-size: 200px;
+    margin: 5px;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+input {
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+#left-input {
+    width: 85px;
+}
+
+#middle-input {
+    margin: 20px;
+    margin-top: 50px;
+    width: 26px;
+}
+
+#right-input {
+    width: 85px;
+}
+
+.operator {
+    background-color: green;
+}
+
+.form-control {
+    width: 10px;
+}

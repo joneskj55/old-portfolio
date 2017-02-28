@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Weather Map</title>
+    <!----------------------DATE HANDLING------------------------>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.js"></script>
+    <link rel="stylesheet" href="css/weather-map.css">
+</head>
+<body>
+<h1 id="main-header">My Weather App</h1>
+<h2 id="three-day">3-day Forecast</h2>
+<h3 id="sub-header"></h3>
+<br>
+<div id="cover-div" class="container">
+</div>
+<!--------------------------SEARCH BAR----------------------------->
+<!--<input id="location" class="controls center-block" type="text" placeholder="Search Map">-->
+<br>
+<!------------------------------INPUT FIELDS FOR LAT LONG----------------------------->
+<!--<input name="latitude" class="col-md-6" placeholder="Enter Latitude *" id="lat">-->
+<!--<input name="longitude" class="col-md-6" placeholder="Enter Longitude *" id="long">-->
+<!--<button id="submit-btn" type="submit" class="btn btn-xl center-block">Submit</button>-->
+<br>
+<div id="map-canvas" class="container"></div>
+<br><br><br><br><br>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<!-- Load the Google Maps API [DON'T FORGET TO USE A KEY] -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDI_7_M3cEqkDYUm4TLq2eN1XOBQkzItos&libraries=places"></script>
+<script src="js/weather-map.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+
+body {
+    background-color: white;
+    color: black;
+    background-image: url(https://static.pexels.com/photos/230755/pexels-photo-230755.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: inherit;
+    /*height: 677px;*/
+    background-size: cover;
+}
+
+#nav-bar {
+    border-color: transparent;
+    background-color: black;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+}
+
+#nav-title {
+    color: white;
+}
+
+#main-title {
+    font-family: 'Lobster Two', cursive;
+    font-size: 100px;
+}
+
+p {
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: 'Lobster Two', cursive;
+    font-size: 40px;
+}
+
+/*#blog-date {*/
+/*color: #337ab7;*/
+/*}*/
+
+#post {
+    height: 200px;
+}
+
+#add-post {
+    font-family: 'Lobster Two', cursive;
+}
+
+input {
+    font-family: 'Inconsolata', monospace;
+}
+
+textarea {
+    font-family: 'Inconsolata', monospace;
+}
+
+#post-btn {
+    font-family: 'Lobster Two', cursive;
+    background-color: transparent;
+    font-size: 25px;
+    border: 1px solid darkgreen;
+    color: darkgreen;
+    width: 25%;
+    /*text-align: center;*/
+}
+
+#remove-post {
+    font-family: 'Lobster Two', cursive;
+    background-color: transparent;
+    font-size: 20px;
+    border: 1px solid red;
+    color: red;
+}
+
+#footerwrap {
+    background-color: black;
+    color: white;
+}
