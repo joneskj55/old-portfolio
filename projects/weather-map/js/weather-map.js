@@ -21,7 +21,7 @@ $(document).ready(function () {
             + "</div>";
     }
 
-    var weatherSA = $.get("https://api.openweathermap.org/data/2.5/forecast/daily", {
+    var weatherSA = $.get("http://api.openweathermap.org/data/2.5/forecast/daily", {
         APPID: "a3159318f0653dffd3a9af1e9becee5e",
         q: "San Antonio, TX",
         units: "imperial",
@@ -60,7 +60,7 @@ $(document).ready(function () {
     var moveMarker = google.maps.event.addListener(marker, 'dragend', function (evt) {
         var latitude = evt.latLng.lat().toFixed(3);
         var longitude = evt.latLng.lng().toFixed(3);
-        var userChoice = $.get("https://api.openweathermap.org/data/2.5/forecast/daily?lat=" + latitude + "&lon=" + longitude + "&cnt=3", {
+        var userChoice = $.get("http://api.openweathermap.org/data/2.5/forecast/daily?lat=" + latitude + "&lon=" + longitude + "&cnt=3", {
             APPID: "a3159318f0653dffd3a9af1e9becee5e",
             units: "imperial"
         });
