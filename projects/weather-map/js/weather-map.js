@@ -26,7 +26,7 @@ $(document).ready(function () {
         q: "San Antonio, TX",
         units: "imperial",
         cnt: 3
-    });
+    }); //HTTP
 
     weatherSA.done(function (data) {
         $("#sub-header").text(data.city.name);
