@@ -26,6 +26,11 @@ body {
     text-align: center;
 }
 
+#instructions {
+    color: white;
+    text-align: center;
+}
+
 #every-box {
     text-align: center;
     color: white;
@@ -48,3 +53,5 @@ body {
     padding: 0;
     border: 1px solid white;
 }
+
+/*added instructions*/
