@@ -163,6 +163,11 @@ ul {
 
 }
 
+.jikan-details {
+    color: white;
+    font-size: 22px;
+}
+
 .img-wrap:hover .project-description {
     visibility: visible;
     opacity: 1;
